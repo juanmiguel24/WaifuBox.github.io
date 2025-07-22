@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Zen Dots', cursive;
+    background-color: #0b0b15;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+    text-align: center;
+    padding: 30px 20px;
+}
+header h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #fff;
+}
+header p {
+    font-size: 1.2em;
+    color: #ffe6ff;
+}
+main {
+    padding: 30px 20px;
+}
+.anime-list h2 {
+    color: #ff66cc;
+}
+.anime-list ul {
+    list-style: none;
+    padding: 0;
+}
+.anime-list li {
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+.anime-list a {
+    color: #66ccff;
+    text-decoration: none;
+}
+.anime-list a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+footer {
+    text-align: center;
+    background-color: #1c1c2e;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+    .anime-list li {
+        font-size: 1em;
+    }
+}
